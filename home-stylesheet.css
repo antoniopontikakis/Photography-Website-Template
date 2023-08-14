@@ -1,0 +1,119 @@
+body {
+	height: 2000px
+}
+
+.big-title {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote {
+	font: italic 1.1em/2 'Playfair Display', serif;
+	margin: 0 0 2em 0;
+  }
+
+.intro-body {
+	padding: 100px 0 100px 20%;
+}
+  
+.intro-body h1 {    
+	font: bold 6em/1 'Playfair Display', serif;
+	margin: 0 0 20px 0;
+	position: relative;
+}
+  
+.hire-me {
+	position: relative;
+	margin-left: 10px;
+	display: inline-block;
+	height: fit-content;
+	width: fit-content;
+	background: #5c5c5c;
+	transition: all 0.3s;
+	padding: .8em 1.5em;
+	border-radius: 5px;
+	z-index: 999;
+}
+  
+.hire-me:hover {
+	background: #3D3C39;
+	transform: scale(1.1);
+}
+
+.hire-me a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.quote {
+	margin-top: 100px;
+	position: relative;
+	grid-column: 3 / span 3;
+	grid-row: 2 / span 1;
+	padding: 0 16%;
+	text-align: center;
+	margin: 0;
+}
+  
+.quote::before {
+	content: '';
+	display: block;
+	background: url() repeat-x;
+	background-size: cover;
+	width: 20%;
+	height: .5em;
+	position: absolute;
+	top: -3em;
+	left: 40%;
+}
+  
+.intro-body h1::before {
+	content: '';
+	display: block;
+	height: 1em;
+	width: 1em;
+	background: url("") no-repeat center center;
+	background-size: 80%;
+	position: absolute;
+	left: -120px;
+	top: 0;
+}
+
+.grid1 {
+	display: grid;
+	grid-template-columns: 3fr 6fr 1fr 5fr 10fr 2fr;
+	grid-template-rows: 100px auto 15px auto auto;
+}
+  
+.img1 {  
+	background: url("/images/hq3.jpg");
+	background-size: cover;
+	border-radius: 0px 15px 0px 0px;
+	grid-column: 1 / span 2;
+	grid-row: 2 / span 3;
+	height: 800px;
+	margin-left: -13px;
+}
+
+.img2 {  
+	background: url("/images/hq4.jpg");
+	background-size: cover;
+	border-radius: 360px 15px 15px 0px;
+	grid-column: 2 / span 2;
+	height: 700px;
+	grid-row: 3 / span 3;
+}
+  
+.img3 {  
+	background: url("/images/hq6.jpg");
+	background-size: cover;
+	grid-column: 5 / span 2;
+	grid-row: 4 / span 2;
+	opacity: 0.3;
+}
+
+.intro-wrapper {
+	grid-column: 4 / span 2;
+	grid-row: 4 / span 2;
+}

@@ -1,0 +1,53 @@
+.contact-grid {
+    width: 80%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.socials-grid {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 2fr 0.2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    float: none;
+    font-size: 3em;
+}
+
+.socials-grid i {
+    grid-column: 2;
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.follow-me-text {
+    font-family: 'Sans Serif';
+    height: fit-content;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #888;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    
+}
+
+@media screen and (max-width: 959px) {
+    .navbar a.active {
+        color: #888;
+    }
+}

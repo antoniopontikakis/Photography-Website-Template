@@ -1,0 +1,13 @@
+.coming-soon {
+	width: fit-content;
+	margin: auto;
+}
+
+@media screen and (max-width: 959px) {
+	.navbar a.home {
+		color: #000;
+	}
+	.navbar a.active {
+		color: #888;
+	}
+}
