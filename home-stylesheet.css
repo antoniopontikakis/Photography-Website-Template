@@ -87,7 +87,7 @@ blockquote {
 }
   
 .img1 {  
-	background: url("/images/hq3.jpg");
+	background: url("./images/hq3.jpg");
 	background-size: cover;
 	border-radius: 0px 15px 0px 0px;
 	grid-column: 1 / span 2;
@@ -97,7 +97,7 @@ blockquote {
 }
 
 .img2 {  
-	background: url("/images/hq4.jpg");
+	background: url("./images/hq4.jpg");
 	background-size: cover;
 	border-radius: 360px 15px 15px 0px;
 	grid-column: 2 / span 2;
@@ -106,7 +106,7 @@ blockquote {
 }
   
 .img3 {  
-	background: url("/images/hq6.jpg");
+	background: url("./images/hq6.jpg");
 	background-size: cover;
 	grid-column: 5 / span 2;
 	grid-row: 4 / span 2;
